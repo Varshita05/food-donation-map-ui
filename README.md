@@ -1,12 +1,26 @@
-# React + Vite
+# Food Donation Map UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React-based frontend project inspired by the "No Food Waste" problem statement from JPMorgan Chase's Code for Good 2025 Hackathon.
 
-Currently, two official plugins are available:
+It allows donors to submit food donations with their location, automatically assigns the nearest volunteer and shelter using distance calculations, and provides real-time delivery tracking.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Donor form with geolocation capture
+- Assigns nearest volunteer and shelter
+- ETA countdown and delivery progress bar
+- Map preview using OpenStreetMap
+- Volunteer interface to accept and track delivery
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- React.js
+- Tailwind CSS
+- OpenStreetMap (iframe)
+- JavaScript, Axios, Vite
+
+## How to Run
+
+```bash
+npm install
+npm run dev
